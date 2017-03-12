@@ -28,6 +28,19 @@ it.
 * [requests](https://github.com/kennethreitz/requests) 2.10 or later
 * Hue bridge (tested with the first generation only)
 
+#### satisfy requirements for Ubuntu16.10+
+```
+apt install python3-pip  python3-dev python3-gi gsettings-desktop-schemas-dev gtk+-3.0-dev libxml2-utils
+pip3 install phue netdisco setuptools
+```
+
+#### satisfy requirements for Fedora 24+
+```
+dnf install gsettings-desktop-schemas gsettings-desktop-schemas-devel pygobject3-devel gtk3-devel
+pip3 install phue netdisco setuptools
+```
+
+
 ### Installing
 
 1. Clone this repository.
